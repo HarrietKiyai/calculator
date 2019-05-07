@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="mystyle.css" />
+   <!--<script src="calc.js"></script>-->
+  </head>
+  <body>
+    <div class="container">
+      <form name="calculate">
+        <input type="number" id="num1"></input>
+        <input type="number" id="num2"></input>
+        <!--Total:<input type="text" id="total"></input>-->
+       <div id="total">Total: </div>
+          <button type="button" onclick="myAdd();">+</button>
+         <!-- <option class="calculate" onclick="subtract">-</option>
+          <option class="calculate" onclick="divide">/</option>
+          <option class="calculate" onclick="multiply">x</option>-->
+       
+      </form>
+    </div>
+<script>
+
+  function myAdd() {
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
+    num1 = parseInt(num1);
+    num2 = parseInt(num2);
+    var total = num1+num2;
+    
+   
+    document.getElementById("total").innerHTML = total.toString();
+      
+  }
+    </script>
+    </body>
+</html>
