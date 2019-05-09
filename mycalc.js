@@ -12,3 +12,4 @@ function sumAns() {
   var ans = (document.getElementById("total").value = eval(calc));
   console.log(ans);
 }
+//comment
