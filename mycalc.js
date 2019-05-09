@@ -12,4 +12,10 @@ function sumAns() {
   var ans = (document.getElementById("total").value = eval(calc));
   console.log(ans);
 }
-//comment
+
+function clearBtn() {
+  var clear = document.getElementById("total");
+  if (clear) {
+    clear.value = "";
+  }
+}
