@@ -1,9 +1,15 @@
-.container {
-  display: grid;
-  border: 1px solid black;
-  /*grid-template-columns: auto;*/
-  padding: 20px;
+body {
+  background-color: #ebf7e3;
 }
-#total {
-  display: inline;
+
+.btn {
+  background-color: #66b032;
+}
+
+.container {
+  padding: 150px;
+}
+
+.form-group {
+  width: 70%;
 }
