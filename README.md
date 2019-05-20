@@ -1,4 +1,4 @@
- #My first calculator in javascript
+# My first calculator in javascript
 - [x] created markup 
 - [x] applied additional functionality with javascript
 - [x] added minus, multiplication and division with javascript
